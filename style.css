@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(253, 253, 253);
+}
+
+.start-page {
+    background: url('images/background.png') no-repeat center center/cover;
+}
+
+.game-page {
+  background: url('images/background.png') no-repeat center center/cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h1 span {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 3px 3px 8px #000;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 span {
+  font-size: 2rem;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgb(65, 30, 110);
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.lives {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
